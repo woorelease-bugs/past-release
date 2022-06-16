@@ -1,5 +1,5 @@
 # Test repo for [woorelease](https://github.com/woocommerce/woorelease)
-You cannot get any changelog entries for a past release
+You cannot get any changelog entries for a past release, or re-generate changelog even for the latest. This also applies to any hotfix releases, or branched release lines.
 
 1. Release `1.0.0` (manually, as you [cannot do that with the woorelease either](https://github.com/woorelease-bugs/initial-release))
 2. Marge a few PRs
@@ -9,6 +9,8 @@ You cannot get any changelog entries for a past release
 	* Add - a workflow to attach label based on PR branchname.
 	* Add - release.yml.
 	```
+	![Visualized git traa of the above](https://user-images.githubusercontent.com/17435/174170468-a974c61a-545f-4531-853f-efd6705d6208.png)
+
 5. Try to re-generate changelog for the 1.0.1 again
 	```
 	woorelease cl:generate --product_version=1.0.1 https://github.com/woorelease-bugs/before-tag-time/tree/develop
