@@ -18,6 +18,8 @@ You cannot get any changelog entries for a past release, or re-generate changelo
 	```
 	= 1.0.1 - 2022-06-16 =
 	```
+	
+6. Use https://github.com/woorelease-bugs/past-release/releases/edit/1.0.1 "Generate release notes" instead 
 
 ## Prerequisites
 
