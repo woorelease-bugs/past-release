@@ -13,7 +13,7 @@ You cannot get any changelog entries for a past release, or re-generate changelo
 
 5. Try to re-generate changelog for the 1.0.1 again
 	```
-	woorelease cl:generate --product_version=1.0.1 https://github.com/woorelease-bugs/before-tag-time/tree/develop
+	woorelease cl:generate --product_version=1.0.1 https://github.com/woorelease-bugs/past-release/tree/develop
 	```	
 	```
 	= 1.0.1 - 2022-06-16 =
